@@ -6,19 +6,19 @@ import MoreNews from "./components/MoreNews";
 function App() {
   const rankOfNews = [
     {
-      img: "../public/images/image-retro-pcs.jpg",
+      img: "/images/image-retro-pcs.jpg",
       rankPosition: "01",
       title: "Reviving Retro PCs",
       resumeOfNew: "What happens when old PCs are given modern upgrades?",
     },
     {
-      img: "../public/images/image-top-laptops.jpg",
+      img: "/images/image-top-laptops.jpg",
       rankPosition: "02",
       title: "Top 10 Laptops of 2022",
       resumeOfNew: "Our best picks for various needs and budgets.",
     },
     {
-      img: "../public/images/image-gaming-growth.jpg",
+      img: "/images/image-gaming-growth.jpg",
       rankPosition: "03",
       title: "The Growth of Gaming",
       resumeOfNew: "How the pandemic has sparked fresh opportunities.",
@@ -31,11 +31,11 @@ function App() {
       <div className={styles.container}>
         <section className={styles.mainNew}>
           <img
-            src="../public/images/image-web-3-desktop.jpg"
+            src="/images/image-web-3-desktop.jpg"
             className={styles.desktopMainImage}
           />
           <img
-            src="../public/images/image-web-3-mobile.jpg"
+            src="/images/image-web-3-mobile.jpg"
             className={styles.movileMainImage}
           />
           <div className={styles.contentMainNew}>

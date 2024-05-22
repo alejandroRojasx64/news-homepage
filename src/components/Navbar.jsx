@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
-        <img src="public/images/logo.svg" />
+        <img src="/images/logo.svg" />
 
         {displayedMenu && (
           <ul className={styles.navList}>
